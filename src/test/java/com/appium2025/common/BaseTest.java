@@ -59,11 +59,11 @@ public class BaseTest {
         options.setAutomationName("UiAutomator2");
         options.setDeviceName("Pixel_9_Pro_XL_API_36");
         //Taurus App
-        //options.setAppPackage("com.anhtester.mobile_app.taurus");
-        //options.setAppActivity("com.anhtester.mobile_app.taurus.MainActivity");
+        options.setAppPackage("com.anhtester.mobile_app.taurus");
+        options.setAppActivity("com.anhtester.mobile_app.taurus.MainActivity");
         //MyDemo App
-        options.setAppPackage("com.saucelabs.mydemoapp.android");
-        options.setAppActivity(".view.activities.SplashActivity");
+        //options.setAppPackage("com.saucelabs.mydemoapp.android");
+        //options.setAppActivity(".view.activities.SplashActivity");
         options.setNoReset(false);
         options.setFullReset(false);
 
